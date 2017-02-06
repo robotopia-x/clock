@@ -13,7 +13,7 @@ npm install @robotopia/clock
 Clock can be used as a replacement for setInterval. It repeatedly calls a function or executes a code snippet, with a specified time delay between each call. Unlike setInterval the interval can be dynamically changed or paused
 
 ```JavaScript
-const Clock = require('clock')
+const Clock = require('@robotopia/clock')
 
 const clock = new Clock(300)
 
@@ -36,7 +36,7 @@ clock.stop()
 Timer is a replacement for Date.now() with the added ability to pause time
 
 ```JavaScript
-const Timer = require('clock/timer')
+const Timer = require('@robtopia/clock/timer')
 
 const timer = new Timer()
 
