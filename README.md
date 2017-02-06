@@ -3,7 +3,7 @@
 util to handle dynamic time intervals
 
 ```
-npm install https://github.com/robotopia-x/clock.git
+npm install @robotopia/clock
 ```
 
 ## Usage

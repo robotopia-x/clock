@@ -1,5 +1,5 @@
 {
-  "name": "clock",
+  "name": "@robotopia/clock",
   "version": "1.0.0",
   "description": "util to handle dynamic time intervals",
   "main": "index.js",
