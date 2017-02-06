@@ -36,7 +36,7 @@ clock.stop()
 Timer is a replacement for Date.now() with the added ability to pause time
 
 ```JavaScript
-const Timer = require('@robtopia/clock/timer')
+const Timer = require('@robotopia/clock/timer')
 
 const timer = new Timer()
 
