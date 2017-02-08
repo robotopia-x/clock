@@ -1,10 +1,12 @@
 {
   "name": "@robotopia/clock",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "util to handle dynamic time intervals",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel ./src --out-dir ./dist",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -24,5 +26,10 @@
   "dependencies": {
     "lodash": "^4.17.4",
     "raf": "^3.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-2": "^6.22.0"
   }
 }
